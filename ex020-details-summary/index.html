@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      details{
+         background-color: #888;
+      }
+
+      details[open] summary::marker{
+         color: #00f;
+      }
+
+      summary{
+         background-color: white;
+      }
+
+      summary::marker{
+         color: #f00;
+      }
+
+      #courses article{
+         border: 1px solid black;
+         border-radius: 15px;
+
+         padding: 15px;
+      }
+   </style>
+</head>
+<body>
+   <details id="courses" open>
+      <summary>Our Channel Courses</summary>
+      <article>
+         <p>Complete and Professional HTML</p>
+         <p>CSS</p>
+         <p>JavaScript</p>
+         <p>C++</p>
+         <p>QtCreator</p>
+         <p>Arduino</p>
+         <p>PHP/MySQL</p>
+      </article>
+
+      <article>
+         <p>Complete and Professional HTML</p>
+         <p>CSS</p>
+         <p>JavaScript</p>
+         <p>C++</p>
+         <p>QtCreator</p>
+         <p>Arduino</p>
+         <p>PHP/MySQL</p>
+      </article>
+   </details>
+
+   <article>
+      <p>Complete and Professional HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>C++</p>
+      <p>QtCreator</p>
+      <p>Arduino</p>
+      <p>PHP/MySQL</p>
+   </article>
+</body>
+</html>
